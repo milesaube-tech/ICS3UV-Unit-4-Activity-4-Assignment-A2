@@ -6,11 +6,11 @@
  */
 
 // set variables 
-let userOperation: string; 
+//let userOperation: string; 
 let answer: number;
 
 // get input for operation 
-userOperation = prompt("Welcome to my calculator program.\nwhich operation would you like to perform today? (select by typing the letter in the front of the operation.)\na.add\nb.subtract\nc.multiply\nd.divide\ne.absolute value\nf.round\ng.raise to an exponent\nh.square root\n") || "";
+const userOperation = prompt("Welcome to my calculator program.\nwhich operation would you like to perform today? (select by typing the letter in the front of the operation.)\na.add\nb.subtract\nc.multiply\nd.divide\ne.absolute value\nf.round\ng.raise to an exponent\nh.square root\n") || "";
 
 // if statements for each operation 
 if (userOperation == "a"){
